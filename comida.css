@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    --font-family:'Kalam', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid {
+    font-family: var(--font-family);
+    padding-left: 40px;
+}
+
+
+h1{
+    font-family: var(--font-family);
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(68.15deg, #da3b3b 16.62%, #3e99e4 80%);
+}
+.main {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+    color: black;
+}
+.main h1{
+    font-size: 50px;
+    font-family: var(--font-family);
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.cards{
+    align-items: center;
+    display: inline-block;
+    background-color:pink;
+    border-radius: 5px;
+    margin: 40px;
+    box-shadow: 2px 2px grey ;
+}
+
+.image img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px ;
+}
+
+.title {
+    text-align: center;
+}
+
+.descricao {
+    text-align: center;
+    padding: 4px;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: pink;
+    color: rgb(2, 2, 2);
+    text-align: center;
+ }
+
+img {
+     width: 50px;
+ }

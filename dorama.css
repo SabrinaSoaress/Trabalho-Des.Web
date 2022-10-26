@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    --font-family:'Kalam', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid {
+    font-family: var(--font-family);
+    padding-left: 40px;
+}
+
+
+h1{
+    font-family: var(--font-family);
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(68.15deg, #3e99e4 18.62%, #da3b3b 80%);
+}
+.main {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
+}
+.main h1{
+    font-family: var(--font-family);
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.cards{
+    align-items: center;
+    display: inline-block;
+    background-color:rgb(192, 193, 255);
+    border-radius: 5px;
+    margin: 40px;
+    box-shadow: 2px 2px rgb(83, 92, 141) ;
+}
+
+.image img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px ;
+}
+
+.title {
+    text-align: center;
+}
+
+.descricao {
+    text-align: center;
+    padding: 4px;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:pink;
+    color: rgb(2, 2, 2);
+    text-align: center;
+ }
+
+img {
+     width: 50px;
+ }
