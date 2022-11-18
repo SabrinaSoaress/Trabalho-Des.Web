@@ -100,6 +100,22 @@ body {
   text-align: center;
 }
 
+.esconde{
+  display: none;
+  text-align: center;
+}
+
+#show-or-hide {
+  background-color: #da3b3b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-left: 645px;
+  margin-top: 10px;
+  border-radius: 5px ;
+  border: #da3b3b;
+}
+
 footer {
   left: 0;
   padding: 6px;
