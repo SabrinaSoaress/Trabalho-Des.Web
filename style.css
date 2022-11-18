@@ -215,6 +215,10 @@ td {
     cursor:pointer;
     transition: all 0.3 ease;
 }
+.button a {
+    color: white;
+    text-decoration: none;
+}
 .button:hover{
     background: #0249ce;
 }
