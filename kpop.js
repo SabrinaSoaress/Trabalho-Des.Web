@@ -25,5 +25,11 @@ function likenlike() {
 turnOn.addEventListener('click', likeOn);
 turnOff.addEventListener('click', likeOff);
 
-// like.addEventListener ('mouseover', likeOn);
-// like.addEventListener ('mouseleave', likeOff);
+// AUDIO
+
+const plays = document.getElementById('plays')
+
+plays.addEventListener('click', function(){
+    const audio = document.querySelector('audio')
+    audio.play()
+})
