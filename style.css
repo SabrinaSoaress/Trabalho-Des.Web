@@ -223,15 +223,14 @@ td {
     background: #0249ce;
 }
   /* Footer */
-.rodape {
-    padding: 32px;
-    border-top: 0.4px solid #5a5754;
-    color: white;
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:pink;
+    color: rgb(2, 2, 2);
     text-align: center;
 }
-  
-.rodape-imagem {
-    height: 48px;
-    display: block;
-    margin: 0 auto;
+footer img {
+    width: 50px;
 }
