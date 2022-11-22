@@ -73,3 +73,20 @@ footer {
 img {
      width: 50px;
  }
+
+.likes {
+    text-align: center;
+    align-items: center;
+}
+button {
+    background: transparent;
+}
+button, input, select, textarea {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 2px;
+}
+.btnlike {
+    margin: 6px;
+}
