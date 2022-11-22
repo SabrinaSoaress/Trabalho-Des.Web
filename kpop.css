@@ -93,3 +93,7 @@ button, input, select, textarea {
 .btnlike {
     margin: 6px;
 }
+.player{
+    text-align: center;
+    align-items: center; 
+}
