@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    --font-family:'Kalam', cursive;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(68.15deg, #f7b3b3 16.62%, #b1d7f5 80%);
+}
+
+h2 {
+    font-family: var(--font-family);
+    background-color: #da3b3b;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+    color: black;
+}
+nav {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+nav img {
+    width: 80px;
+}
+
+#comidas {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+#like {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: block;
+}
+
+.comida-single {
+    width: 32%;
+    margin-right: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #da3b3b;
+}
+.comida-single img {
+    max-width: 100%;
+}
+.comida-single p{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+.comida-single a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: #3e99e4;
+    display: block;
+    padding: 10px 0;
+}
+
+.checkout {
+    border-bottom: 2px dotted #da3b3b;
+    padding: 10px 0;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: pink;
+    color: rgb(2, 2, 2);
+    text-align: center;
+}
+footer img {
+    width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .comida-single{
+        width: 100%;
+        margin-right: 0;
+    }
+}
